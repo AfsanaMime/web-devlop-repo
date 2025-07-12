@@ -35,11 +35,11 @@ body {
   color: #4A42EC;
 }
 
-.signup-btn {
+.btn-2 {
   background-color: #4A42EC;
   color: white;
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 16px;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -49,15 +49,15 @@ body {
 
 }
 
-.signup-btn:hover {
+.btn-2:hover {
 
-  background-color: #f31286;
+  background-color: #71b4eb;
   /* darker yellow */
   transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba(143, 130, 130, 0.2);
 }
 
-.cta-btn {
+.btn-1 {
   display: inline-block;
   cursor: pointer;
 
@@ -66,28 +66,28 @@ body {
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 
   padding: 12px 24px;
-  border-radius: 6px;
+  border-radius: 16px;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
   margin-top: 40px;
 }
 
-.cta-btn:hover {
-  background-color: #f31286;
+.btn-1:hover {
+  background-color: #6e99eb;
   /* darker yellow */
   transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba(211, 187, 187, 0.2);
 }
 
 .hero {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 65px;
+  font-size: 55px;
 }
 
-body .container {
+body .section {
   font-family: Arial, sans-serif;
   background-color: #f8faff;
   margin: 0;
@@ -97,7 +97,7 @@ body .container {
   align-items: center;
 }
 
-.container {
+.section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,14 +142,14 @@ body .container {
 
 }
 
-.text-section button:hover {
+.btn-3:hover {
 
-  background-color: #f31286;
+  background-color: #90a6ee;
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.image-section img {
+.image img {
   max-width: 100;
   border-radius: 20px;
   height: auto;
@@ -257,7 +257,7 @@ body {
   flex-wrap: nowrap;
 }
 
-.testimonial-card {
+.card {
   background-color: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -267,18 +267,18 @@ body {
 }
 
 .stars {
-  color: gold;
+  color: rgb(243, 227, 133);
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-.testimonial-card h3 {
+.card h3 {
   margin: 0 0 8px;
   font-size: 16px;
   color: #222;
 }
 
-.testimonial-card p {
+.card p {
   font-size: 14px;
   color: #555;
   margin-bottom: 15px;
@@ -337,12 +337,12 @@ body focus-section {
 }
 
 /* Call to Action Button */
-.cta-button {
+.btn-1 {
   display: inline-block;
   background-color: #5d5fef;
   color: #fff;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 16px;
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 40px;
@@ -363,7 +363,7 @@ body contact-left contact-right {
 }
 
 /* Contact Section Layout */
-.contact-section {
+.contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -515,7 +515,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer .description {
+.footer .info {
   font-size: 16px;
   max-width: 600px;
   margin: 0 auto 30px;
